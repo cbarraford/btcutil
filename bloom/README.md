@@ -1,7 +1,7 @@
 bloom
 =====
 
-[![Build Status](http://img.shields.io/travis/cbarraford/btcutil.svg)](https://travis-ci.org/cbarraford/btcutil)
+[![Build Status](http://img.shields.io/travis/coinsuite/btcutil.svg)](https://travis-ci.org/coinsuite/btcutil)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/coinsuite/btcutil/bloom)
 

@@ -1,8 +1,8 @@
 btcutil
 =======
 
-[![Build Status](http://img.shields.io/travis/cbarraford/btcutil.svg)](https://travis-ci.org/cbarraford/btcutil)
-[![Coverage Status](http://img.shields.io/coveralls/cbarraford/btcutil.svg)](https://coveralls.io/r/cbarraford/btcutil?branch=master)
+[![Build Status](http://img.shields.io/travis/coinsuite/btcutil.svg)](https://travis-ci.org/coinsuite/btcutil)
+[![Coverage Status](http://img.shields.io/coveralls/coinsuite/btcutil.svg)](https://coveralls.io/r/coinsuite/btcutil?branch=master)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/coinsuite/btcutil)
 
@@ -27,7 +27,7 @@ $ go get -u github.com/coinsuite/btcutil
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the cbarraford developers.  To
+has not been tampered with and is coming from the coinsuite developers.  To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at

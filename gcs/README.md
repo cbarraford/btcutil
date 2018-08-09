@@ -1,8 +1,8 @@
 gcs
 ==========
 
-[![Build Status](http://img.shields.io/travis/cbarraford/btcutil.svg)]
-(https://travis-ci.org/cbarraford/btcutil) [![ISC License]
+[![Build Status](http://img.shields.io/travis/coinsuite/btcutil.svg)]
+(https://travis-ci.org/coinsuite/btcutil) [![ISC License]
 (http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://godoc.org/github.com/coinsuite/btcutil/gcs?status.png)]
 (http://godoc.org/github.com/coinsuite/btcutil/gcs)

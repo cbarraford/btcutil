@@ -1,7 +1,7 @@
 bech32
 ==========
 
-[![Build Status](http://img.shields.io/travis/cbarraford/btcutil.svg)](https://travis-ci.org/cbarraford/btcutil)
+[![Build Status](http://img.shields.io/travis/coinsuite/btcutil.svg)](https://travis-ci.org/coinsuite/btcutil)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://godoc.org/github.com/coinsuite/btcutil/bech32?status.png)](http://godoc.org/github.com/coinsuite/btcutil/bech32)
 
