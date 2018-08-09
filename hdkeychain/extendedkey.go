@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cbarraford/btcutil"
-	"github.com/cbarraford/btcutil/base58"
-	"github.com/cbarraford/coind/btcec"
-	"github.com/cbarraford/coind/chaincfg"
-	"github.com/cbarraford/coind/chaincfg/chainhash"
+	"github.com/coinsuite/btcutil"
+	"github.com/coinsuite/btcutil/base58"
+	"github.com/coinsuite/coind/btcec"
+	"github.com/coinsuite/coind/chaincfg"
+	"github.com/coinsuite/coind/chaincfg/chainhash"
 )
 
 const (

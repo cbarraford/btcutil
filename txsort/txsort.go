@@ -11,8 +11,8 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/cbarraford/coind/chaincfg/chainhash"
-	"github.com/cbarraford/coind/wire"
+	"github.com/coinsuite/coind/chaincfg/chainhash"
+	"github.com/coinsuite/coind/wire"
 )
 
 // InPlaceSort modifies the passed transaction inputs and outputs to be sorted

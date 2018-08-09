@@ -1,9 +1,9 @@
 txsort
 ======
 
-[![Build Status](http://img.shields.io/travis/cbarraford/btcutil.svg)](https://travis-ci.org/cbarraford/btcutil)
+[![Build Status](http://img.shields.io/travis/coinsuite/btcutil.svg)](https://travis-ci.org/coinsuite/btcutil)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/cbarraford/btcutil/txsort)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/coinsuite/btcutil/txsort)
 
 Package txsort provides the transaction sorting according to [BIP 69](https://github.com/bitcoin/bips/blob/master/bip-0069.mediawiki).
 
@@ -22,7 +22,7 @@ A comprehensive suite of tests is provided to ensure proper functionality.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/cbarraford/btcutil/txsort
+$ go get -u github.com/coinsuite/btcutil/txsort
 ```
 
 ## License

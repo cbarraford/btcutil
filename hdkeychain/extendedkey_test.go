@@ -16,7 +16,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cbarraford/coind/chaincfg"
+	"github.com/coinsuite/coind/chaincfg"
 )
 
 // TestBIP0032Vectors tests the vectors provided by [BIP32] to ensure the
