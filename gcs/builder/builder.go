@@ -1,4 +1,4 @@
-// Copyright (c) 2017 The btcsuite developers
+// Copyright (c) 2017 The coinsuite developers
 // Copyright (c) 2017 The Lightning Network Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/coinsuite/btcutil/gcs"
 	"github.com/coinsuite/coind/chaincfg/chainhash"
 	"github.com/coinsuite/coind/txscript"
 	"github.com/coinsuite/coind/wire"
+	"github.com/coinsuite/coinutil/gcs"
 )
 
 const (

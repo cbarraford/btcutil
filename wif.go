@@ -1,17 +1,17 @@
-// Copyright (c) 2013-2016 The btcsuite developers
+// Copyright (c) 2013-2016 The coinsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil
+package coinutil
 
 import (
 	"bytes"
 	"errors"
 
-	"github.com/coinsuite/btcutil/base58"
 	"github.com/coinsuite/coind/btcec"
 	"github.com/coinsuite/coind/chaincfg"
 	"github.com/coinsuite/coind/chaincfg/chainhash"
+	"github.com/coinsuite/coinutil/base58"
 )
 
 // ErrMalformedPrivateKey describes an error where a WIF-encoded private

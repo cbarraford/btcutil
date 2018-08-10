@@ -1,4 +1,4 @@
-// Copyright (c) 2017 The btcsuite developers
+// Copyright (c) 2017 The coinsuite developers
 // Copyright (c) 2017 The Lightning Network Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -9,13 +9,13 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/coinsuite/btcutil"
-	"github.com/coinsuite/btcutil/gcs"
-	"github.com/coinsuite/btcutil/gcs/builder"
 	"github.com/coinsuite/coind/chaincfg"
 	"github.com/coinsuite/coind/chaincfg/chainhash"
 	"github.com/coinsuite/coind/txscript"
 	"github.com/coinsuite/coind/wire"
+	"github.com/coinsuite/coinutil"
+	"github.com/coinsuite/coinutil/gcs"
+	"github.com/coinsuite/coinutil/gcs/builder"
 )
 
 var (
@@ -79,8 +79,8 @@ func TestUseBlockHash(t *testing.T) {
 		Index: 4321,
 	}
 
-	// btcutil.Address
-	addr, err := btcutil.DecodeAddress(testAddr, &chaincfg.MainNetParams)
+	// coinutil.Address
+	addr, err := coinutil.DecodeAddress(testAddr, &chaincfg.MainNetParams)
 	if err != nil {
 		t.Fatalf("Address decode failed: %s", err.Error())
 	}

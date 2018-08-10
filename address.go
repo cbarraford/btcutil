@@ -1,8 +1,8 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The coinsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil
+package coinutil
 
 import (
 	"bytes"
@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/coinsuite/btcutil/base58"
-	"github.com/coinsuite/btcutil/bech32"
 	"github.com/coinsuite/coind/btcec"
 	"github.com/coinsuite/coind/chaincfg"
+	"github.com/coinsuite/coinutil/base58"
+	"github.com/coinsuite/coinutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 

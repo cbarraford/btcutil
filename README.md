@@ -1,12 +1,12 @@
-btcutil
+coinutil
 =======
 
-[![Build Status](http://img.shields.io/travis/coinsuite/btcutil.svg)](https://travis-ci.org/coinsuite/btcutil)
-[![Coverage Status](http://img.shields.io/coveralls/coinsuite/btcutil.svg)](https://coveralls.io/r/coinsuite/btcutil?branch=master)
+[![Build Status](http://img.shields.io/travis/coinsuite/coinutil.svg)](https://travis-ci.org/coinsuite/coinutil)
+[![Coverage Status](http://img.shields.io/coveralls/coinsuite/coinutil.svg)](https://coveralls.io/r/coinsuite/coinutil?branch=master)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/coinsuite/btcutil)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/coinsuite/coinutil)
 
-Package btcutil provides bitcoin-specific convenience functions and types.
+Package coinutil provides bitcoin-specific convenience functions and types.
 A comprehensive suite of tests is provided to ensure proper functionality.  See
 `test_coverage.txt` for the gocov coverage report.  Alternatively, if you are
 running a POSIX OS, you can run the `cov_report.sh` script for a real-time
@@ -21,7 +21,7 @@ provided.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/coinsuite/btcutil
+$ go get -u github.com/coinsuite/coinutil
 ```
 
 ## GPG Verification Key
@@ -46,5 +46,5 @@ verify the signature perform the following:
 
 ## License
 
-Package btcutil is licensed under the [copyfree](http://copyfree.org) ISC
+Package coinutil is licensed under the [copyfree](http://copyfree.org) ISC
 License.

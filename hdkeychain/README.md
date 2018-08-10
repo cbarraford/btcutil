@@ -1,9 +1,9 @@
 hdkeychain
 ==========
 
-[![Build Status](http://img.shields.io/travis/coinsuite/btcutil.svg)](https://travis-ci.org/coinsuite/btcutil)
+[![Build Status](http://img.shields.io/travis/coinsuite/coinutil.svg)](https://travis-ci.org/coinsuite/coinutil)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/coinsuite/btcutil/hdkeychain)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/coinsuite/coinutil/hdkeychain)
 
 Package hdkeychain provides an API for bitcoin hierarchical deterministic
 extended keys (BIP0032).
@@ -24,7 +24,7 @@ report.
   keys
 - Support for custom networks by registering them with chaincfg
 - Obtaining the underlying EC pubkeys, EC privkeys, and associated bitcoin
-  addresses ties in seamlessly with existing btcec and btcutil types which
+  addresses ties in seamlessly with existing btcec and coinutil types which
   provide powerful tools for working with them to do things like sign
   transations and generate payment scripts
 - Uses the btcec package which is highly optimized for secp256k1
@@ -39,18 +39,18 @@ report.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/coinsuite/btcutil/hdkeychain
+$ go get -u github.com/coinsuite/coinutil/hdkeychain
 ```
 
 ## Examples
 
-* [NewMaster Example](http://godoc.org/github.com/coinsuite/btcutil/hdkeychain#example-NewMaster)  
+* [NewMaster Example](http://godoc.org/github.com/coinsuite/coinutil/hdkeychain#example-NewMaster)  
   Demonstrates how to generate a cryptographically random seed then use it to
   create a new master node (extended key).
-* [Default Wallet Layout Example](http://godoc.org/github.com/coinsuite/btcutil/hdkeychain#example-package--DefaultWalletLayout)  
+* [Default Wallet Layout Example](http://godoc.org/github.com/coinsuite/coinutil/hdkeychain#example-package--DefaultWalletLayout)  
   Demonstrates the default hierarchical deterministic wallet layout as described
   in BIP0032.
-* [Audits Use Case Example](http://godoc.org/github.com/coinsuite/btcutil/hdkeychain#example-package--Audits)  
+* [Audits Use Case Example](http://godoc.org/github.com/coinsuite/coinutil/hdkeychain#example-package--Audits)  
   Demonstrates the audits use case in BIP0032.
 
 ## License

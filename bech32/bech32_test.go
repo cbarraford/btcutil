@@ -1,4 +1,4 @@
-// Copyright (c) 2017 The btcsuite developers
+// Copyright (c) 2017 The coinsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coinsuite/btcutil/bech32"
+	"github.com/coinsuite/coinutil/bech32"
 )
 
 func TestBech32(t *testing.T) {

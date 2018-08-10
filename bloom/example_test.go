@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2016 The btcsuite developers
+// Copyright (c) 2014-2016 The coinsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,9 +9,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/coinsuite/btcutil/bloom"
 	"github.com/coinsuite/coind/chaincfg/chainhash"
 	"github.com/coinsuite/coind/wire"
+	"github.com/coinsuite/coinutil/bloom"
 )
 
 // This example demonstrates how to create a new bloom filter, add a transaction
